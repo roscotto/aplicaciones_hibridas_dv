@@ -5,20 +5,20 @@ let arrayNumeros = [10, 50, 35, 2, 20, 33, 88, 72];
 
 //4 Crear una función que reciba dos números y retorne la suma de ellos
 
-function suma() {
+function suma(numero1, numero2) {
     return numero1 + numero2;
 }
 
-console.log('Suma:', suma());
+console.log('Suma:', suma(numero1, numero2));
 
 //5 Crear una función que reciba dos números y devuelva el resultado entre la división del primero sobre el segundo
 
 
-function division() {
+function division(numero1, numero2) {
     return numero1 / numero2;
 }
 
-console.log('División:',division());
+console.log('División:',division(numero1, numero2));
 
 
 // 6 Crear una función que reciba un Array de N elementos y devuelva el mayor valor de ese array
@@ -28,7 +28,7 @@ function encontrarMayor() {
     return numeroMayor;
 }
 
-console.log('El número mayor es:', encontrarMayor());
+console.log('El número mayor es:', encontrarMayor(arrayNumeros));
 
 // 7. Hacer uso del console.log para mostrar la suma de 5 y 10
 console.log('Suma de 5 y 10:', 5 + 10);

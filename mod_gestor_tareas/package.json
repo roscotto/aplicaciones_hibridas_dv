@@ -1,0 +1,13 @@
+{
+  "name": "mod_gestor_tareas",
+  "version": "1.0.0",
+  "description": "actividad modulos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "node index.js"
+  },
+  "author": "Rocio",
+  "license": "ISC"
+}

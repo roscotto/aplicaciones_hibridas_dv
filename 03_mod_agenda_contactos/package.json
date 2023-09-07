@@ -1,0 +1,13 @@
+{
+  "name": "03_mod_agenda_contactos",
+  "version": "1.0.0",
+  "description": "programa que permite gestionar agenda de contactos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "node index.js"
+  },
+  "author": "Rocio",
+  "license": "ISC"
+}

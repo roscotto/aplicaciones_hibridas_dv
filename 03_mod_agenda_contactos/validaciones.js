@@ -5,9 +5,12 @@
  */
 function validarTelefono(telefono)
 {
+    // Elimina espacios en blanco y guiones
+    const soloNumeros= telefono.replace(/[\s-]/g, '');
+
     let telefonoRegex = /^[0-9]{9}$/;
-   
-    if(telefonoRegex.test(telefono)) {
+
+    if(!telefonoRegex.test(soloNumeros)) {
         return true
     } else {
         return false

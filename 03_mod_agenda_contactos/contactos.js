@@ -5,7 +5,7 @@ let listaContactos = [];
 function agregarContacto(nombre, telefono, email) {
 
    
-    if (nombre && validaciones.validarTelefono(telefono) == true && validaciones.validarEmail(correo) == true) {
+    if (nombre && validaciones.validarTelefono(telefono) == true && validaciones.validarEmail(email) == true) {
         let contacto = {
             'nombre': nombre,
             'telefono': telefono,

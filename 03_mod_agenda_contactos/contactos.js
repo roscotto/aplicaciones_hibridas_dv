@@ -1,4 +1,4 @@
-import validaciones from './validaciones.js';
+﻿import validaciones from './validaciones.js';
 import fs from 'node:fs';
 
 let listaContactos = [];
